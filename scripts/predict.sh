@@ -1,0 +1,5 @@
+DATA=/media/turing/D741ADF8271B9526/DATA
+OUTPUT=/media/turing/D741ADF8271B9526/OUTPUT
+python predict_dbn.py \
+    --MODEL=$OUTPUT/DBN_MODEL \
+    --FEATURE='0.17783, 0.00, 9.690, 0, 0.5850, 5.5690, 73.50, 2.3999, 6, 391.0, 19.20, 395.77, 15.10'
